@@ -2,7 +2,6 @@ Summary:	Russian Fedora Remix firstboot configure scripts
 Name:		zarya-config
 Version:	6
 Release:	1%{?dist}
-Epoch:		3
 
 License:	GPLv2
 Group:		System Environment/Base
@@ -77,6 +76,7 @@ rm -rf %{buildroot}
 - added gconf rules from f14 firstboot
 - drop unnecessary rules (SELinux, KDM, KDE and others)
 - zarya-config for zarya
+- drop epoch
 
 * Mon Jan 21 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 0.9.2-1
 - attach floppy in modprobe.d
