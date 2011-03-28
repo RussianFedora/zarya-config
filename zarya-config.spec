@@ -1,7 +1,7 @@
 Summary:	Russian Fedora Remix firstboot configure scripts
 Name:		zarya-config
 Version:	6
-Release:	1%{?dist}
+Release:	1.el6.Z
 
 License:	GPLv2
 Group:		System Environment/Base
@@ -72,7 +72,7 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Mon Mar 28 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 6-1
+* Mon Mar 28 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 6-1.el6.Z
 - added gconf rules from f14 firstboot
 - drop unnecessary rules (SELinux, KDM, KDE and others)
 - zarya-config for zarya
