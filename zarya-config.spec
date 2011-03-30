@@ -72,7 +72,7 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Wed Mar 39 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 6.1-1.el6.Z
+* Wed Mar 30 2011 Arkady L. Shane <ashejn@yandex-team.ru> - 6.1-1.el6.Z
 - drop buttons_have_icons item
 - fix menus_have_icons item
 
